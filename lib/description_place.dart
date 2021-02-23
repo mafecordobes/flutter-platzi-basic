@@ -35,7 +35,7 @@ class DescriptionPlace extends StatelessWidget {
           ),
         ),
         Row(
-          children: [star, star, star, starHalf, starBorder, starBorder],
+          children: [star, star, star, star, starHalf, starBorder],
         ),
       ],
     );
