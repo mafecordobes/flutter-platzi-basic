@@ -4,8 +4,9 @@ import 'package:flutter/widgets.dart';
 
 class GradientBack extends StatelessWidget {
   final String title;
+  final double heightApp;
 
-  GradientBack(this.title);
+  GradientBack(this.title, this.heightApp);
   @override
   Widget build(BuildContext context) {
     SystemChrome.setSystemUIOverlayStyle(
@@ -14,7 +15,7 @@ class GradientBack extends StatelessWidget {
             ));
 
     return Container(
-      height: 250.0,
+      height: heightApp,
       width: double.infinity,
       decoration: BoxDecoration(
           gradient: LinearGradient(

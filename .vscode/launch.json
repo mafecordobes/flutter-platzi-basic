@@ -8,27 +8,6 @@
             "name": "platzi_trips",
             "request": "launch",
             "type": "dart"
-        },
-        {
-            "name": "iPhone",
-            "request": "launch",
-            "type": "dart",
-            "deviceId": "3D4F7D93-5EB3-47A7-ABF8-7FD648E4BD97"
-        },
-        {
-            "name": "Android",
-            "request": "launch",
-            "type": "dart",
-            "deviceId": "emulator-5554"
-        },
-    ],
-    "compounds": [
-        {
-            "name": "All Devices",
-            "configurations": [
-                "Android",
-                "iPhone"
-            ]
         }
     ]
 }
